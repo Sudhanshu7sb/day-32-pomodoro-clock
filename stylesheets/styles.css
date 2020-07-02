@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+  /* ------------- */
+body{
+  max-width:100%;
+}
+
+  .timer{
+    width:50%;
+    /* height:40vh; */
+    background:#333;
+    border-radius: 5px;
+    outline:none;
+    margin:2rem auto;
+  }
+
+
+  .timer__controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .timer__button{
+    padding:0.8rem 1.2rem;
+    border:0;
+    border-radius: 2rem;
+    color:whitesmoke;
+    margin:1rem;
+    
+  }
+  
+  .start{
+    background-color: #0c0;
+   
+  }
+  .start:hover{
+    opacity: 0.85;
+  }
+
+
+  .shortBreak{
+    background-color: #4da6ff;
+  }
+
+  .shortBreak:hover{
+    opacity: 0.85;
+  }
+
+
+  .longBreak{
+    background-color: #fe9e9e ;
+    
+  }
+  .longBreak:hover{
+    opacity: 0.85;
+  }
+
+
+
+  .reset{
+    background-color: red;
+   
+  }
+
+  .reset:hover{
+    opacity: 0.85;
+  }
+
+
+
+  .countdown_timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10rem;
+    height:10rem;
+    border:1px solid tomato;
+    border-radius: 50%;
+    margin:1rem auto;
+    margin-bottom:1rem;
+  }
+
+  .display__time-left{
+    color:tomato;
+    margin:0 auto;
+  }
+
+  .be_back_at{
+    margin:1rem;
+    padding-bottom: 1rem;
+    margin:0 auto;
+    text-align: center;
+  }
+
+  .display__end-time{
+    color: tomato;
+    margin:1rem;
+    
+
+  }
+
+  
